@@ -16,6 +16,6 @@ The following image demonstrates the web application's appearance:
 Deployed Link to Application:
 
 Github link: 
-https://github.com/jackkkendrick/Weather-Tracker
+https://github.com/jackkkendrick/Weather--Tracker
 ## Liceense
 MIT
