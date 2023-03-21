@@ -14,6 +14,7 @@ The following image demonstrates the web application's appearance:
 (coding-challenges/Weather-Tracker/Assets/weather-tracker.png)
 
 Deployed Link to Application:
+https://jackkkendrick.github.io/Weather--Tracker/
 
 Github link: 
 https://github.com/jackkkendrick/Weather--Tracker
