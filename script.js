@@ -22,7 +22,7 @@ $(document).ready(function () {
     }
   });
 
-  
+
   //This code retrieves data from the web browser's localStorage object and parses it as a JSON object. It assigns the resulting object to the variable history. If localStorage.getItem("history") returns null or undefined, the code assigns an empty array to history using the logical OR operator (||).
   var history = JSON.parse(localStorage.getItem("history")) || [];
 
@@ -156,6 +156,7 @@ $(document).ready(function () {
 
       //loop to create a new card for 5 days pull data image from search
       for (var i = 0; i < data.list.length; i++) {
+        
 //Essentially saying if the name of the city exists then do the following
 //checking if the timestamp corresponds to a time of 3:00 PM (15:00 in military time), and if it does, it will execute the code within the conditional statement
         if (data.list[i].dt_txt.indexOf("15:00:00") !== -1) {
